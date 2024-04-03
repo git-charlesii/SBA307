@@ -1,0 +1,65 @@
+body {
+  color: #40A2D8;
+  /* background-image: url(../images/football.jpg); 
+  background-size: 30px 30px; */
+}
+
+nav {
+  display: flex;
+  padding: 50px;
+}
+
+nav h2 {
+  padding-right: 30px;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+nav img {
+  width: 75px;
+  height: 75px;
+}
+
+#fb-logo {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+hr {
+  color: rgb(201, 17, 20);
+}
+
+form {
+  border: 5px solid #0B60B0;
+  border-radius: 40px;
+  margin-left: 30%;
+  margin-right: 30%;
+  /* background-color: #F0EDCF; */
+  background: linear-gradient(.70turn, pink, 10%, skyblue);
+  padding: 50px;
+}
+
+select {
+  background-color: yellow;
+  color: rgb(201, 17, 20);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 30px;
+}
+
+.dropdown {
+  font-size: 17px;
+}
+
+#age select {
+  width: 80px;
+}
