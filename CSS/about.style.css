@@ -36,9 +36,22 @@ nav img {
   height: 75px;
 }
 
+
 #history-rules {
-  border: 2px solid red;
-  margin: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+
+
+}
+
+.col {
+  border: 2px solid #000;
+
+}
+
+blockquote {
+  margin-left: 10%;
 }
 
 table {
