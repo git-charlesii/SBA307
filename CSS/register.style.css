@@ -63,3 +63,7 @@ select {
 #age select {
   width: 80px;
 }
+
+#height {
+  height: 400px;
+}

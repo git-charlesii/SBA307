@@ -18,9 +18,11 @@ form {
   margin-top: 10%
 }
 
+
 #home-button {
   width: 70px;
   height: 70px;
-  margin-left: 51%;
+  margin-left: 53%;
   margin-top: 10px;
+  color: #8ad3ef;
 }
